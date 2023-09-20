@@ -125,3 +125,9 @@ In this example the "new state" console.log will execute after the
 <img src="my-app/src/image/stepstoupdatestate.png">
 
 <img src="my-app/src/image/cheatsheet.png">
+
+## Key and index
+
+Always put a key so every element can be identified within the component.
+As far as which element the key goes on, always put the key on the outermost element that will  
+be repeated.
