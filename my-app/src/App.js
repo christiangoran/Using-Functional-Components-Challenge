@@ -3,6 +3,7 @@ import NavBarForm from "./components/NavBarForm";
 // import NavBarSimple from "./components/NavBarSimple";
 import Sidebar from "./components/Sidebar";
 import RenderingLists from "./components/RenderingLists";
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBarForm />
       <Sidebar />
       <RenderingLists />
+      <Content />
     </div>
   );
 }
