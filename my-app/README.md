@@ -128,6 +128,6 @@ In this example the "new state" console.log will execute after the
 
 ## Key and index
 
-Always put a key so every element can be identified within the component.
-As far as which element the key goes on, always put the key on the outermost element that will  
-be repeated.
+Always put a key so every element can be identified within the component. As far as which element the key goes on, always put the key on the outermost element that will be repeated.
+
+And when using keys as props, do not use the word key since this is used by React.
