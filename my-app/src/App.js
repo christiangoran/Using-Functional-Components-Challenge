@@ -3,15 +3,14 @@ import NavBarForm from "./components/NavBarForm";
 // import NavBarSimple from "./components/NavBarSimple";
 import Sidebar from "./components/Sidebar";
 import RenderingLists from "./components/RenderingLists";
-import Content from "./components/Content";
+import ContentHooks from "./components/ContentHooks";
 
 function App() {
   return (
     <div className={css.App}>
       <NavBarForm />
       <Sidebar />
-      <RenderingLists />
-      <Content />
+      <ContentHooks />
     </div>
   );
 }
